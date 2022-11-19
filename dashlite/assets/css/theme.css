@@ -1,0 +1,72 @@
+/*!
+ * Theme Name: Default
+ * Package : DashLite
+ * Author: Softnio
+ * Author URI: http://themeforest.net/user/softnio
+ * Version	 :	1.0.0
+ * Updated	 :	07.23.2020
+**/
+
+.note-group-select-from-files {
+    display: none;
+}
+
+.dropzone .dz-preview.dz-complete {
+    background: white;
+    border: solid 1px #d7d7d7;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 10px !important;
+}
+
+.dropzone .dz-preview .dz-image img {
+    min-height: 120px;
+}
+
+.dropzone .dz-preview .dz-error-message {
+    top: 170px!important;
+}
+
+/* .dz-max-files-reached {
+    pointer-events: none;
+    cursor: default;
+  } */
+
+.dropzone a.download {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    padding: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer !important;
+}
+
+.filepond--credits {
+    display: none;
+}
+
+.kanban-item-title .title {
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+    margin-right: 0.75rem;
+    line-height: 1.5em;
+}
+
+.form-text-hint-left {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    padding-right: .5rem;
+    padding-left: .75rem;
+    display: flex;
+    align-items: center;
+    color: #6576ff;
+    background: #fff;
+    border-radius: 4px;
+}
